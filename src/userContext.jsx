@@ -8,7 +8,7 @@ export function UserContextProvider({ children }) {
   const [ready, setReady] = useState(false);
   const token = localStorage.getItem("Token");
   useEffect(() => {
-    if (!user) {
+    if (user!==null) {
       axios
         .get("/profile", { headers: { Authorization: `Bearer ${token}` } })
         .then(({ data }) => {
