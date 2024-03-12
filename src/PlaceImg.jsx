@@ -10,7 +10,7 @@ export default function PlaceImg({ place, index = 0, className = null }) {
     <>
       <img
         className={className}
-        src={"http://localhost:4000/" + place.photos[index]}
+        src={"https://staynestserver.onrender.com/" + place.photos[index]}
         alt=""
       />
     </>
