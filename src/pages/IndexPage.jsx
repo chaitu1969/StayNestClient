@@ -21,7 +21,7 @@ export default function IndexPage() {
                 {place.photos?.[0] && (
                   <img
                     className="rounded-2xl aspect-square object-cover"
-                    src={"http://localhost:4000/" + place.photos?.[0]}
+                    src={"https://staynestserver.onrender.com/" + place.photos?.[0]}
                     alt=""
                   />
                 )}
