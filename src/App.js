@@ -13,7 +13,7 @@ import PlacesFormPage from "./pages/PlacesFormPage.jsx";
 import BookingsPage from "./pages/BookingsPage.jsx";
 import BookingPage from "./pages/BookingPage.jsx";
 
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://staynestserver.onrender.com";
 axios.defaults.withCredentials = true;
 axios.defaults.headers = { token: localStorage.getItem("token") };
 
