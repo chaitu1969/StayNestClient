@@ -31,7 +31,7 @@ export default function PlaceGallarey({ place }) {
           {place?.photos?.length > 0 &&
             place.photos.map((photo) => (
               <div>
-                <img src={"http://localhost:4000/" + photo} alt="" />
+                <img src={"https://staynestserver.onrender.com/" + photo} alt="" />
               </div>
             ))}
         </div>
@@ -48,7 +48,7 @@ export default function PlaceGallarey({ place }) {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className=" w-full h-full object-contain"
-                src={"http://localhost:4000/" + place.photos?.[0]}
+                src={"https://staynestserver.onrender.com/" + place.photos?.[0]}
                 alt=""
               />
             )}
@@ -58,7 +58,7 @@ export default function PlaceGallarey({ place }) {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="aspect-square object-cover"
-                src={"http://localhost:4000/" + place.photos?.[1]}
+                src={"https://staynestserver.onrender.com/" + place.photos?.[1]}
                 alt=""
               />
             )}
@@ -68,7 +68,7 @@ export default function PlaceGallarey({ place }) {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square object-cover relative top-2"
-                  src={"http://localhost:4000/" + place.photos?.[2]}
+                  src={"https://staynestserver.onrender.com/" + place.photos?.[2]}
                   alt=""
                 />
               )}
