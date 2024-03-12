@@ -89,7 +89,7 @@ export default function PhotosUploader({ addedPhotos, onChange }) {
               <div className="h-32 flex relative" key={link}>
                 <img
                   className="rounded-2xl w-full object-full"
-                  src={`http://localhost:4000/${link}`}
+                  src={`https://staynestserver.onrender.com/${link}`}
                   alt=""
                 />
                 <button
